@@ -7,14 +7,14 @@ class APIFeatures {
   filter() {
     const queryObj = { ...this.queryString };
     const excludeFields = ['page', 'sort', 'limit', 'fields'];
-    excludeFields.forEach((el) => delete queryObj[el]);
+    excludeFields.forEach(el => delete queryObj[el]);
 
     // Advance filtering
     // \b - only want to match exact words
     // g - happen multiple times
     let queryStr = JSON.stringify(queryObj);
 
-    queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
+    queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, match => `$${match}`);
 
     this.query = this.query.find(JSON.parse(queryStr));
 
@@ -24,7 +24,7 @@ class APIFeatures {
 
   sort() {
     if (this.queryString.sort) {
-      console.log(this.queryString);
+      // console.log(this.queryString);
       const sortBy = this.queryString.sort.split(',').join(' ');
       // console.log(sortBy);
       this.query = this.query.sort(sortBy);
