@@ -47,7 +47,7 @@ const styleSrcUrls = [
   'https://api.tiles.mapbox.com/',
   'https://fonts.googleapis.com/',
   'https://www.myfonts.com/fonts/radomir-tinkov/gilroy/*',
-  'checkout.stripe.com',
+  'https://checkout.stripe.com',
 ];
 const connectSrcUrls = [
   'https://*.mapbox.com/',
