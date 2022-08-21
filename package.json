@@ -2,7 +2,7 @@
   "name": "natours",
   "version": "1.0.0",
   "engines": {
-    "node": ">=10.0.0"
+    "node": "^16"
   },
   "description": "Learning node express and mongoDB",
   "main": "app.js",
@@ -23,6 +23,7 @@
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
     "core-js": "^3.24.1",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-mongo-sanitize": "^2.2.0",
