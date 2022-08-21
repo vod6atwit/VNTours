@@ -47,12 +47,12 @@ const styleSrcUrls = [
   'https://api.tiles.mapbox.com/',
   'https://fonts.googleapis.com/',
   'https://www.myfonts.com/fonts/radomir-tinkov/gilroy/*',
-  ' checkout.stripe.com',
+  'checkout.stripe.com',
 ];
 const connectSrcUrls = [
   'https://*.mapbox.com/',
   'https://*.cloudflare.com',
-  'http://127.0.0.1:3000',
+  'http://127.0.0.1:8000',
   'http://127.0.0.1:52191',
   '*.stripe.com',
   'ws:',
