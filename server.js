@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
-process.on('uncaughtException', (err) => {
+process.on('uncaughtException', err => {
   console.log('UNCAUGHT EXCEPTION: 🚨 Shutting down...');
   console.log(err.name, err.message);
   process.exit(1);
@@ -30,10 +30,19 @@ const server = app.listen(port, () => {
   console.log(`App running on port ${port}`);
 });
 
-process.on('unhandledRejection', (err) => {
+process.on('unhandledRejection', err => {
   console.log(err.name, err.message);
   console.log('UNHANDLER EXCEPTION: 🚨 Shutting down...');
   server.close(() => {
     process.exit(1);
+  });
+});
+
+// a signal used to call programm to stop running
+// Heroku use this to shut down application for every 24 hours
+process.on('SIGTERM', () => {
+  console.log('🚨 SIGTERM RECEIVED. Shutting down gracefully');
+  server.close(() => {
+    console.log('🚨 Process terminated!');
   });
 });
