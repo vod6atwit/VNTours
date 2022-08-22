@@ -95,7 +95,7 @@ if (bookBtn) {
 
 const alertMessage = document.querySelector('body').dataset.alert;
 if (alertMessage) {
-  showAlert('success', alertMessage, 15);
+  showAlert('success', alertMessage, 14);
 }
 
 // "passwordCurrent":"pass1234",
