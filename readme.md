@@ -15,13 +15,12 @@
     - [**Stripe Implementation & Stripe webhooks logic:**](#stripe-implementation--stripe-webhooks-logic)
     - [**Technologies & Third services:**](#technologies--third-services)
     - [**coming improvement:**](#coming-improvement)
-    - [**LICENSE:**](#license)
 
 <br><br>
 
 ### **Introduction**
 
-VNtours is a full-stack web application using to booking tours in Vietnam
+VNtours is a full-stack web application used to booking tours in Vietnam
 
 ### **Features:**
 
@@ -164,7 +163,7 @@ The MVC architecture used here, is a way to structure the application developmen
 
 <br>
 
-<img src="./readmeImage/MVC architecture.png>" width = 50%>
+<img src="./readmeImage/MVC architecture.png" width = 50%>
 
 <br><br>
 
@@ -172,7 +171,7 @@ The MVC architecture used here, is a way to structure the application developmen
 
 <br>
 
-<img src="./readmeImage/error handling.png>" width = 50%>
+<img src="./readmeImage/error handling.png" width = 50%>
 
 <br><br>
 
@@ -265,7 +264,7 @@ VNtours project includes a bunch of common security features that prevents commo
 <br>
 
 - attempts to rendering reset the password page
-- improve users + admin&lead-guide profile dashbord (booked travels, list of all users, travels, list of users ratings ...)
+- improve users + admin&lead-guide profile dashbord (booked tours, list of all users, tours, list of users reviews...)
 - Improve the web application responsiveness and design
 
 <br><br>
