@@ -123,7 +123,7 @@ This project builds with NodeJs, MongoDB JavaScript, CSS, PUG and MongoDB.
 
 <br>
 
-<img src="./readmeImage/architecture.png">
+<img src="./readmeImage/app architecture.png">
 
 <br><br>
 
@@ -249,7 +249,7 @@ VNtours project includes a bunch of common security features that prevents commo
 <br>
 
 - Postman
-- MongoDB Atlas
+- MongoDB Atlas/compass
 - Parcel-bundler
 - Stripe
 - Mailtrap
