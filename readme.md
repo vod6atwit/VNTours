@@ -25,11 +25,11 @@ VNtours is a full-stack web application using to booking tours in Vietnam
 
 ### **Features:**
 
-users can purchase travel via bank card, create an account, log in and log out,
+Users can purchase travel via bank card, create an account, log in and log out,
 with the ability to reset their password and update their data (name, photo, and email basically), with an improved user experience. An emailing feature
 is provided each time a user signup or purchases travel.
 
-<br><br>
+<br>
 
 ### **Postman APIs:**
 
@@ -124,7 +124,7 @@ This project builds with NodeJs, MongoDB JavaScript, CSS, PUG and MongoDB.
 
 <br>
 
-<img src="./readmeImage/architecture.png>"/>
+<img src="./readmeImage/architecture.png>" width = 50%>
 
 <br><br>
 
@@ -164,7 +164,7 @@ The MVC architecture used here, is a way to structure the application developmen
 
 <br>
 
-<img src="./readmeImage/MVC architecture.png>"/>
+<img src="./readmeImage/MVC architecture.png>" width = 50%>
 
 <br><br>
 
@@ -172,7 +172,7 @@ The MVC architecture used here, is a way to structure the application developmen
 
 <br>
 
-<img src="./readmeImage/error handling.png>"/>
+<img src="./readmeImage/error handling.png>" width = 50%>
 
 <br><br>
 
@@ -180,7 +180,7 @@ The MVC architecture used here, is a way to structure the application developmen
 
 <br>
 
-<img src="./readmeImage/data modeling.png"/>
+<img src="./readmeImage/data modeling.png" width = 50%>
 
 <br><br>
 
@@ -241,7 +241,7 @@ VNtours project includes a bunch of common security features that prevents commo
 
 <br>
 
-<img src="./readmeImage/stripe checkout.png" />
+<img src="./readmeImage/stripe checkout.png" width = 50%>
 
 <br><br>
 
