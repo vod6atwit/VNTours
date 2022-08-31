@@ -22,6 +22,8 @@
 
 VNtours is a full-stack web application used to booking tours in Vietnam
 
+Live Website hosted on Heroku <a href="https://vntours-vod6.herokuapp.com/" target="_blank">VNtours</a>
+
 ### **Features:**
 
 Users can purchase travel via bank card, create an account, log in and log out,
