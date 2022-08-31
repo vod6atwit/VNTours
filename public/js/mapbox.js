@@ -2,7 +2,7 @@
 
 // console.log(locations.forEach((loc) => console.log(loc.coordinates)));
 
-export const displayMap = (locations) => {
+export const displayMap = locations => {
   let coordinates = [];
   locations.forEach((loc, i) => {
     coordinates[i] = loc.coordinates;
@@ -15,14 +15,14 @@ export const displayMap = (locations) => {
     container: 'map',
     style: 'mapbox://styles/vod6/cl6v1iabk000914ro1b6gos1v',
     scrollZoom: false,
+    // zoom: 100,
     // center: [-71.014504, 42.252278],
-    // zoom: 10,
     // interactive: false,
   });
 
   const bounds = new mapboxgl.LngLatBounds();
 
-  locations.forEach((loc) => {
+  locations.forEach(loc => {
     // Create marker
     const el = document.createElement('div');
     el.className = 'marker';

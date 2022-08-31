@@ -1,14 +1,21 @@
+/* - Primary: #3392c5
+- Tints: #c2deee
+- Shades: #ebf4f9
+- Accents: #2e83b1 
+#1f5876
+*/
+
 :root {
   --section-rotate: 9vw;
 }
 
 ::-moz-selection {
-  background-color: #55c57a;
+  background-color: #c2deee;
   color: #fff;
 }
 
 ::selection {
-  background-color: #55c57a;
+  background-color: #c2deee;
   color: #fff;
 }
 
@@ -31,7 +38,7 @@ body {
   line-height: 1.6;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
-  color: #777;
+  color: #333;
   /* padding: 3rem; */
   min-height: 100vh;
   display: -webkit-box;
@@ -118,10 +125,10 @@ body {
     linear,
     left top,
     right top,
-    from(#7dd56f),
-    to(#28b487)
+    from(#2e83b1),
+    to(#2e83b1)
   );
-  background-image: linear-gradient(to right, #7dd56f, #28b487);
+  background-image: linear-gradient(to right, #2e83b1, #2e83b1);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.1rem;
@@ -156,14 +163,10 @@ body {
     linear,
     left top,
     right bottom,
-    from(rgba(125, 213, 111, 0.85)),
-    to(rgba(40, 180, 135, 0.85))
+    from(#3392c5),
+    to(#1f5876)
   );
-  background-image: linear-gradient(
-    to bottom right,
-    rgba(125, 213, 111, 0.85),
-    rgba(40, 180, 135, 0.85)
-  );
+  background-image: linear-gradient(to bottom right, #3392c5, #1f5876);
 }
 
 .heading-primary {
@@ -219,7 +222,7 @@ body {
 
 .btn:focus {
   outline: none;
-  background-color: #2e864b;
+  background-color: #2e83b1;
 }
 
 .btn--white {
@@ -231,11 +234,11 @@ body {
 }
 
 .btn--green {
-  background-color: #55c57a;
+  background-color: #3392c5;
   color: #fff;
 }
 .btn--green::after {
-  background-color: #55c57a;
+  background-color: #3392c5;
 }
 
 .btn--small {
@@ -246,7 +249,7 @@ body {
 .btn-small,
 .btn-small:link,
 .btn-small:visited {
-  background-color: #55c57a;
+  background-color: #3392c5;
   color: #fff;
   font-size: 1.4rem;
   padding: 1.25rem 3rem;
@@ -262,22 +265,22 @@ body {
 }
 
 .btn-small:hover {
-  background-color: #7dd56f;
+  background-color: #2e83b1;
 }
 
 .btn-text:link,
 .btn-text:visited {
-  color: #55c57a;
+  color: #3392c5;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #55c57a;
+  border-bottom: 1px solid #3392c5;
   padding: 3px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .btn-text:hover {
-  background-color: #55c57a;
+  background-color: #3392c5;
   color: #fff;
   -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
@@ -294,7 +297,7 @@ body {
 
 .btn-text:focus {
   outline: none;
-  outline: 3px solid #55c57a;
+  outline: 3px solid #3392c5;
   outline-offset: 3px;
 }
 
@@ -384,11 +387,11 @@ body {
     linear,
     left top,
     right bottom,
-    from(#7dd56f),
-    to(#28b487)
+    from(#c2deee),
+    to(#c2deee)
   );
-  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
-  opacity: 0.85;
+  background-image: linear-gradient(to right bottom, #c2deee, #c2deee);
+  opacity: 0.5;
 }
 
 .heading-box {
@@ -400,7 +403,7 @@ body {
   transform: translate(-50%, -50%);
 }
 .heading-box__group {
-  color: #f7f7f7;
+  /* color: #f7f7f7; */
   margin-top: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -495,7 +498,7 @@ body {
 .overview-box__icon {
   height: 2.25rem;
   width: 2.25rem;
-  fill: #55c57a;
+  fill: #3392c5;
 }
 .overview-box__label {
   font-weight: 700;
@@ -593,10 +596,10 @@ body {
     linear,
     left top,
     right bottom,
-    from(#7dd56f),
-    to(#28b487)
+    from(#2e83b1),
+    to(#c2deee)
   );
-  background: linear-gradient(to right bottom, #7dd56f, #28b487);
+  background: linear-gradient(to right bottom, #2e83b1, #c2deee);
   clip-path: polygon(
     0 var(--section-rotate),
     100% 0,
@@ -681,7 +684,7 @@ body {
   margin-right: 1px;
 }
 .reviews__star--active {
-  fill: #55c57a;
+  fill: #3392c5;
 }
 .reviews__star--inactive {
   fill: #bbb;
@@ -731,10 +734,10 @@ body {
     linear,
     left top,
     right bottom,
-    from(#7dd56f),
-    to(#28b487)
+    from(#2e83b1),
+    to(#c2deee)
   );
-  background: linear-gradient(to right bottom, #7dd56f, #28b487);
+  background: linear-gradient(to right bottom, #2e83b1, #c2deee);
   z-index: 10;
   -webkit-transform: translate(-35%, -50%);
   transform: translate(-35%, -50%);
@@ -788,10 +791,10 @@ body {
     linear,
     left top,
     right bottom,
-    from(#7dd56f),
-    to(#28b487)
+    from(#2e83b1),
+    to(#c2deee)
   );
-  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
+  background-image: linear-gradient(to right bottom, #2e83b1, #c2deee);
   padding: 4rem 0;
 }
 .user-view__content {
@@ -854,7 +857,7 @@ body {
 }
 .footer__nav a:hover,
 .footer__nav a:active {
-  color: #55c57a;
+  color: #3392c5;
 }
 .footer__copyright {
   justify-self: end;
@@ -1086,7 +1089,7 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 7rem;
+  grid-gap: 6rem;
 }
 
 .card {
@@ -1124,11 +1127,11 @@ body {
     linear,
     left top,
     right bottom,
-    from(#7dd56f),
-    to(#28b487)
+    from(#c2deee),
+    to(#c2deee)
   );
-  background-image: linear-gradient(to right bottom, #7dd56f, #28b487);
-  opacity: 0.7;
+  background-image: linear-gradient(to right bottom, #c2deee, #c2deee);
+  opacity: 0.5;
 }
 .card__picture-img {
   -o-object-fit: cover;
@@ -1171,7 +1174,7 @@ body {
 .card__icon {
   height: 2rem;
   width: 2rem;
-  fill: #55c57a;
+  fill: #3392c5;
 }
 .card__footer {
   background-color: #f7f7f7;
@@ -1312,23 +1315,23 @@ body {
 }
 
 .form__upload:focus + label {
-  outline: 3px solid #55c57a;
+  outline: 3px solid #3392c5;
   /* outline: 3px solid red; */
   outline-offset: 3px;
 }
 
 .form__upload + label {
-  color: #55c57a;
+  color: #3392c5;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #55c57a;
+  border-bottom: 1px solid #3392c5;
   padding: 3px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   cursor: pointer;
 }
 .form__upload + label:hover {
-  background-color: #55c57a;
+  background-color: #3392c5;
   color: #fff;
   -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);

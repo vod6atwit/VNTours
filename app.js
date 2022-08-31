@@ -119,7 +119,7 @@ app.post(
 
 // body parser, reading data from body into req.body
 app.use(express.json({ limit: '10kb' }));
-app.use(express.urlencoded({ extended: true, limit: '10kb' })); // for getiing form from URL
+app.use(express.urlencoded({ extended: true, limit: '10kb' })); // for getting Form from URL
 app.use(cookieParser());
 
 // Data sanitizaiton against NoSQL query injection
