@@ -50,3 +50,5 @@ process.on('SIGTERM', () => {
     console.log('🚨 Process terminated!');
   });
 });
+
+// TODO: change logo pictures

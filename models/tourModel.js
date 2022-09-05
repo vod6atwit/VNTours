@@ -121,6 +121,9 @@ const tourSchema = new mongoose.Schema(
 // tourSchema.index({
 //   price: 1,
 // });
+
+// 1 is used for ascending order
+// -1 is used for descending order.
 tourSchema.index({
   price: 1,
   ratingsAverage: -1,
