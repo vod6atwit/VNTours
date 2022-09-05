@@ -1,4 +1,4 @@
-# **_nasa-project_**
+# **_VNtours_**
 
 ![]()
 
@@ -45,7 +45,7 @@ Please refer to this <a href="https://documenter.getpostman.com/view/22527187/VU
 **Project Directory structure:**
 
 ```
-goAheadTravel/
+VNtours/
 ├── controllers
 │   ├── authController.js
 │   ├── bookingController.js
