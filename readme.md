@@ -5,16 +5,15 @@
 ## **Content Overview:**
 
 - [**_VNtours_**](#Introduction)
-  - [**Content Overview:**](#content-overview)
-    - [**The project main idea:**](#the-project-main-idea)
-    - [**Postman APIs:**](#postman-apis)
-    - [**Architecture:**](#architecture)
-    - [**Error handling:**](#error-handling)
-    - [**Data Modeling:**](#data-modeling)
-    - [**Security Features Implemented:**](#security-features-implemented)
-    - [**Stripe Implementation & Stripe webhooks logic:**](#stripe-implementation--stripe-webhooks-logic)
-    - [**Technologies & Third services:**](#technologies--third-services)
-    - [**coming improvement:**](#coming-improvement)
+  - [**Features**](#Features)
+  - [**Postman APIs:**](#postman-apis)
+  - [**Architecture:**](#architecture)
+  - [**Error handling:**](#error-handling)
+  - [**Data Modeling:**](#data-modeling)
+  - [**Security Features Implemented:**](#security-features-implemented)
+  - [**Stripe Implementation & Stripe webhooks logic:**](#stripe-implementation--stripe-webhooks-logic)
+  - [**Technologies & Third services:**](#technologies--third-services)
+  - [**coming improvement:**](#coming-improvement)
 
 <br><br>
 
