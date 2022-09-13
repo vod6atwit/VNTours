@@ -233,7 +233,7 @@ VNtours project includes a bunch of common security features that prevents commo
 
 <br>
 
-- **Backend-side:** set a route to create Stripe checkout session, which will contain informations about the travel to purchase like the name of the travel, the price, the currency,.. etc, along with user details such as the email, name. For that, the stripe secret key must be provided.
+- **Backend-side:** set a route to create Stripe checkout session, along with user details such as the email, name. For that, the stripe secret key must be provided.
 
 - **Frontend-side:** implemented a function that will call the Stripe checkout session from the server once the user hit the booking button and send it back to client and based on that session Stripe will create the checkout page and redirect the user to it, in order to fill it with the card number, expiration date,.. Then, Stripe will charge the credit card which means that the user data (credit card number, expiration date...) will not reach the web application server and this is very secure.
 
