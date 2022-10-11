@@ -1,6 +1,6 @@
 /* eslint-disable */
-import 'core-js/stable'; // polyfilling all new features
-import 'regenerator-runtime/runtime'; // polyfiling async/await
+import 'core-js/stable'; // to polyfilling all ECMAScript new features
+import 'regenerator-runtime/runtime'; // to support generator and async/await syntax
 import { displayMap } from './mapbox';
 import { login, logout } from './login';
 import { signup } from './signup';
