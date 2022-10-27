@@ -124,7 +124,7 @@ This project builds with NodeJs, MongoDB JavaScript, CSS, PUG and MongoDB.
 
 <br>
 
-<img src="./readmeImage/app architecture.png">
+<!-- <img src="./readmeImage/app architecture.png"> -->
 
 <br><br>
 
@@ -163,7 +163,7 @@ The MVC architecture used here, is a way to structure the application developmen
 
 <br>
 
-<img src="./readmeImage/MVC architecture.png">
+<!-- <img src="./readmeImage/MVC architecture.png"> -->
 
 <br><br>
 
@@ -171,7 +171,7 @@ The MVC architecture used here, is a way to structure the application developmen
 
 <br>
 
-<img src="./readmeImage/error handling.png">
+<!-- <img src="./readmeImage/error handling.png"> -->
 
 <br><br>
 
@@ -179,7 +179,7 @@ The MVC architecture used here, is a way to structure the application developmen
 
 <br>
 
-<img src="./readmeImage/data modeling.png">
+<!-- <img src="./readmeImage/data modeling.png"> -->
 
 <br><br>
 
@@ -240,7 +240,7 @@ VNtours project includes a bunch of common security features that prevents commo
 
 <br>
 
-<img src="./readmeImage/stripe checkout.png">
+<!-- <img src="./readmeImage/stripe checkout.png"> -->
 
 <br><br>
 
