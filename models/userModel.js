@@ -53,25 +53,25 @@ const userSchema = new mongoose.Schema({
 });
 
 //DOCUMENT MIDDLEWARE: runs before .save() and .create()
-// userSchema.pre('save', async function (next) {
-//   // Only run this function if password was actually modified
-//   if (!this.isModified('password')) return next();
+userSchema.pre('save', async function (next) {
+  // Only run this function if password was actually modified
+  if (!this.isModified('password')) return next();
 
-//   // encrypt password
-//   this.password = await bcrypt.hash(this.password, 12);
+  // encrypt password
+  this.password = await bcrypt.hash(this.password, 12);
 
-//   // not showing password confirm
-//   this.passwordConfirm = undefined;
-//   next();
-// });
+  // not showing password confirm
+  this.passwordConfirm = undefined;
+  next();
+});
 
-// userSchema.pre('save', function (next) {
-//   if (!this.isModified('password') || this.isNew) return next();
+userSchema.pre('save', function (next) {
+  if (!this.isModified('password') || this.isNew) return next();
 
-//   this.passwordChangedAt = Date.now() - 1000;
+  this.passwordChangedAt = Date.now() - 1000;
 
-//   next();
-// });
+  next();
+});
 
 userSchema.pre(/^find/, function (next) {
   // this point to current query
